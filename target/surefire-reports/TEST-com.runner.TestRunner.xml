@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.runner.TestRunner" time="310.758" tests="17" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\eclipse\QAfox_cucumber"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\eclipse\QAfox_cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Neo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="E:\postman1\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-16\bin;C:\Users\Neo\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-16;E:\postman1\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;E:\postman1\apache-maven-3.8.2-bin\apache-maven-3.8.2;E:\postman1\apache-maven-3.8.2-bin\apache-maven-3.8.2;."/>
+    <property name="maven.conf" value="E:\postman1\apache-maven-3.8.2-bin\apache-maven-3.8.2/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\Neo"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="Neo"/>
+    <property name="java.class.path" value="E:\postman1\apache-maven-3.8.2-bin\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\postman1\apache-maven-3.8.2-bin\apache-maven-3.8.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Successful login with valid credentials" classname="Simple Data table for single input1" time="7.4"/>
+  <testcase name="Google search with data from Data Table" classname="My Data Table for google search" time="19.554"/>
+  <testcase name="Verify Logo presence on Facebook Home page" classname="Facebook Logo" time="5.976"/>
+  <testcase name="This is tutorialsninja register account" classname="Test Hooks uses common before and after method for all scenarios" time="8.475">
+    <failure message="Account registration failed" type="java.lang.AssertionError">java.lang.AssertionError: Account registration failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.HooksInCucumber.user_account_should_be_created_and_user_should_get_logged_in(HooksInCucumber.java:77)
+	at ✽.user account should be created and user should get logged in(file:///E:/eclipse/QAfox_cucumber/./features/hooksincucumber.feature:9)
+</failure>
+    <system-out><![CDATA[
+Scenario: This is tutorialsninja register account                                  &amp#27;[90m# features/hooksincucumber.feature:3&amp#27;[0m
+This will be executed before every scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open tutorialsninja application&amp#27;[0m                                          &amp#27;[90m# com.stepdefinitions.HooksInCucumber.i_open_tutorialsninja_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on my account dropdown menu&amp#27;[0m                                         &amp#27;[90m# com.stepdefinitions.HooksInCucumber.i_click_on_my_account_dropdown_menu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on register option&amp#27;[0m                                                     &amp#27;[90m# com.stepdefinitions.HooksInCucumber.click_on_register_option()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be taken to register account page&amp#27;[0m                                  &amp#27;[90m# com.stepdefinitions.HooksInCucumber.i_should_be_taken_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter the details required for user registration on register account page&amp#27;[0m &amp#27;[90m# com.stepdefinitions.HooksInCucumber.i_enter_the_details_required_for_user_registration_on_register_account_page()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser account should be created and user should get logged in&amp#27;[0m                &amp#27;[90m# com.stepdefinitions.HooksInCucumber.user_account_should_be_created_and_user_should_get_logged_in()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Account registration failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.HooksInCucumber.user_account_should_be_created_and_user_should_get_logged_in(HooksInCucumber.java:77)
+	at âœ½.user account should be created and user should get logged in(file:///E:/eclipse/QAfox_cucumber/./features/hooksincucumber.feature:9)
+&amp#27;[0m
+This will be executed after every scenario
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 26088
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2022 10:42:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Correct email and password #1" classname="Login functionality of facebook" time="36.197">
+    <failure message="user login failed due to incorrect credentials" type="java.lang.AssertionError">java.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at ✽.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Correct email and password      &amp#27;[90m# features/parameterwithexample.feature:10&amp#27;[0m
+This will be executed before every scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens facebook login page&amp#27;[0m            &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_opens_facebook_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"first"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"firstpass"&amp#27;[0m&amp#27;[32m fields&amp#27;[0m &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_enters_and_fields(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                      &amp#27;[90m# com.stepdefinitions.ParameterWithExample.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is navigated to home page&amp#27;[0m             &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at âœ½.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+&amp#27;[0m
+This will be executed after every scenario
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 6115
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2022 10:43:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Correct email and password #2" classname="Login functionality of facebook" time="35.963">
+    <failure message="user login failed due to incorrect credentials" type="java.lang.AssertionError">java.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at ✽.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Correct email and password       &amp#27;[90m# features/parameterwithexample.feature:11&amp#27;[0m
+This will be executed before every scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens facebook login page&amp#27;[0m             &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_opens_facebook_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Second"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"otherPass"&amp#27;[0m&amp#27;[32m fields&amp#27;[0m &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_enters_and_fields(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                       &amp#27;[90m# com.stepdefinitions.ParameterWithExample.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is navigated to home page&amp#27;[0m              &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at âœ½.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+&amp#27;[0m
+This will be executed after every scenario
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 27641
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2022 10:43:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Correct email and password #3" classname="Login functionality of facebook" time="22.776">
+    <failure message="user login failed due to incorrect credentials" type="java.lang.AssertionError">java.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at ✽.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Correct email and password      &amp#27;[90m# features/parameterwithexample.feature:12&amp#27;[0m
+This will be executed before every scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens facebook login page&amp#27;[0m            &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_opens_facebook_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"third"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"thirdpass"&amp#27;[0m&amp#27;[32m fields&amp#27;[0m &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_enters_and_fields(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                      &amp#27;[90m# com.stepdefinitions.ParameterWithExample.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is navigated to home page&amp#27;[0m             &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at âœ½.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+&amp#27;[0m
+This will be executed after every scenario
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 9120
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2022 10:44:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Correct email and password #4" classname="Login functionality of facebook" time="35.744">
+    <failure message="user login failed due to incorrect credentials" type="java.lang.AssertionError">java.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at ✽.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Correct email and password        &amp#27;[90m# features/parameterwithexample.feature:13&amp#27;[0m
+This will be executed before every scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens facebook login page&amp#27;[0m              &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_opens_facebook_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"fourth"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"fourthpass"&amp#27;[0m&amp#27;[32m fields&amp#27;[0m &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_enters_and_fields(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                        &amp#27;[90m# com.stepdefinitions.ParameterWithExample.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is navigated to home page&amp#27;[0m               &amp#27;[90m# com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at âœ½.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+&amp#27;[0m
+This will be executed after every scenario
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 41785
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2022 10:44:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Correct email and password #5" classname="Login functionality of facebook" time="66.26"/>
+  <testcase name="hardcoding paramteres" classname="parameter without example keyword" time="36.046"/>
+  <testcase name="This is first scenario" classname="Test tagged hook" time="0.016"/>
+  <testcase name="This is second scenario" classname="Test tagged hook" time="0.013"/>
+  <testcase name="This is third scenario" classname="Test tagged hook" time="0.009"/>
+  <testcase name="(Tag in selenium1)" classname="(Tag in selenium1)" time="0.024"/>
+  <testcase name="Search Word1" classname="Tag in selenium1" time="0.016"/>
+  <testcase name="Google Seach1" classname="Tag in selenium1" time="0.019"/>
+  <testcase name="verifying login with valid username and valid password" classname="login functionality" time="36.27">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.stepdefinitions.Tutorialsninja_Login.user_gets_logged_in_and_user_is_taken_to_my_accounts_page(Tutorialsninja_Login.java:57)
+	at ✽.user gets logged in and user is taken to my accounts page.(file:///E:/eclipse/QAfox_cucumber/./features/tutorialsninja_login.feature:9)
+</failure>
+    <system-out><![CDATA[
+@Sanity
+Scenario: verifying login with valid username and valid password                      &amp#27;[90m# features/tutorialsninja_login.feature:4&amp#27;[0m
+This will be executed before every scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the tutorialsninja application&amp#27;[0m                                         &amp#27;[90m# com.stepdefinitions.Tutorialsninja_Login.i_open_the_tutorialsninja_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on My Account drop menu and click on login option&amp#27;[0m                      &amp#27;[90m# com.stepdefinitions.Tutorialsninja_Login.i_click_on_my_account_drop_menu_and_click_on_login_option()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter valid email address and valid password in the text fields on login page&amp#27;[0m &amp#27;[90m# com.stepdefinitions.Tutorialsninja_Login.i_enter_valid_email_address_and_valid_password_in_the_text_fields_on_login_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on login button&amp#27;[0m                                                           &amp#27;[90m# com.stepdefinitions.Tutorialsninja_Login.click_on_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser gets logged in and user is taken to my accounts page.&amp#27;[0m                     &amp#27;[90m# com.stepdefinitions.Tutorialsninja_Login.user_gets_logged_in_and_user_is_taken_to_my_accounts_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.stepdefinitions.Tutorialsninja_Login.user_gets_logged_in_and_user_is_taken_to_my_accounts_page(Tutorialsninja_Login.java:57)
+	at âœ½.user gets logged in and user is taken to my accounts page.(file:///E:/eclipse/QAfox_cucumber/./features/tutorialsninja_login.feature:9)
+&amp#27;[0m
+This will be executed after every scenario
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 5900
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2022 10:46:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

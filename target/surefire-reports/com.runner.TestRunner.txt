@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 311.993 sec <<< FAILURE! - in com.runner.TestRunner
+This is tutorialsninja register account(Test Hooks uses common before and after method for all scenarios)  Time elapsed: 8.475 sec  <<< FAILURE!
+java.lang.AssertionError: Account registration failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.HooksInCucumber.user_account_should_be_created_and_user_should_get_logged_in(HooksInCucumber.java:77)
+	at ?.user account should be created and user should get logged in(file:///E:/eclipse/QAfox_cucumber/./features/hooksincucumber.feature:9)
+
+Correct email and password #1(Login functionality of facebook)  Time elapsed: 36.197 sec  <<< FAILURE!
+java.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at ?.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+
+Correct email and password #2(Login functionality of facebook)  Time elapsed: 35.963 sec  <<< FAILURE!
+java.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at ?.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+
+Correct email and password #3(Login functionality of facebook)  Time elapsed: 22.776 sec  <<< FAILURE!
+java.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at ?.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+
+Correct email and password #4(Login functionality of facebook)  Time elapsed: 35.744 sec  <<< FAILURE!
+java.lang.AssertionError: user login failed due to incorrect credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.stepdefinitions.ParameterWithExample.user_is_navigated_to_home_page(ParameterWithExample.java:44)
+	at ?.user is navigated to home page(file:///E:/eclipse/QAfox_cucumber/./features/parameterwithexample.feature:7)
+
+verifying login with valid username and valid password(login functionality)  Time elapsed: 36.27 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.stepdefinitions.Tutorialsninja_Login.user_gets_logged_in_and_user_is_taken_to_my_accounts_page(Tutorialsninja_Login.java:57)
+	at ?.user gets logged in and user is taken to my accounts page.(file:///E:/eclipse/QAfox_cucumber/./features/tutorialsninja_login.feature:9)
+
